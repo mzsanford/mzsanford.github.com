@@ -1,0 +1,70 @@
+
+#header {
+  background-image: url(/static/mz-logo-type.png);
+  height: 100px;
+  width: 100%;
+}
+
+h2 {
+  font-variant: small-caps;
+  font-family: Georgia;
+  padding-left: 130px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#where {
+  list-style-type: none;
+}
+
+#where li {
+  margin-bottom: 5px;
+}
+
+.sites,.other {
+  clear: left;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.sites li {
+  float: left;
+  padding: 5px;
+  width: 100px;
+  height: 15px;
+}
+
+.sites .heading {
+  font-variant: small-caps;
+  text-align: right;
+  margin-right: 4px;
+  padding-right: 4px;
+  margin-bottom: 30px;
+  width: 130px;
+  font-size: 130%;
+}
+
+#maincontent {
+  font-variant: small-caps;
+  font-size: 200%;
+}
+
+.deprecated {
+  text-decoration: line-through;
+}
+
+.other {
+  margin-left: 160px;
+  font-size: 80%;
+}
+
+.other li {
+  float: left;
+  padding: 0px 6px;
+}
