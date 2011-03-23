@@ -14,18 +14,29 @@ h1 {
 }
 
 h1 span {
-  color: #0084B4;
+  color: #3cf;
   font-weight: 400;
 }
 
 body {
   text-align: center;
+  background-color: #333;
+  color: #fff;
 }
 
 #wrapper {
   width: 400px;
+  padding: 20px 20px 0 20px;
+  -webkit-box-shadow: inset 0px 0px 10px #333;
+  -webkit-border-radius: 10px;
+  background-color: #fff;
   margin-left: auto ;
   margin-right: auto ;
+}
+
+#wrapper p {
+  clear: both;
+  height: 20px;
 }
 
 ul.cd{float:left;list-style-type:none;margin:0;padding:0}
