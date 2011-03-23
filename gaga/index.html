@@ -22,6 +22,43 @@
     <p></p>
   </div>
 
+  <div id="widget">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'search',
+      search: '@ladygaga',
+      interval: 6000,
+      title: '',
+      subject: '',
+      width: 'auto',
+      height: 1500,
+      theme: {
+        shell: {
+          background: '#333',
+          color: '#ffffff'
+        },
+        tweets: {
+          background: '#333',
+          color: '#fff',
+          links: '#3cf'
+        }
+      },
+      features: {
+        scrollbar: false,
+        loop: true,
+        live: true,
+        hashtags: true,
+        timestamp: false,
+        avatars: true,
+        toptweets: true,
+        behavior: 'default'
+      }
+    }).render().start();
+    </script>
+  </div>
+
   <script type="text/javascript">
   //<![CDATA[
 
