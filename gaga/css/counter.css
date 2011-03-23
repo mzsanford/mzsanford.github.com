@@ -51,11 +51,6 @@ body {
   font-size: 30px;
 }
 
-#footer {
-  position: relative;
-  bottom: 0;
-  z-index: 5;
-}
 
 ul.cd{float:left;list-style-type:none;margin:0;padding:0}
 li.t{background:url(../img/digits-top.png) 0 0 no-repeat;width:53px;height:39px}
